@@ -1,0 +1,16 @@
+E:\LTMCB\Lab6\Lab6\bin\Debug\Lab6.exe.config
+E:\LTMCB\Lab6\Lab6\bin\Debug\Lab6.exe
+E:\LTMCB\Lab6\Lab6\bin\Debug\Lab6.pdb
+E:\LTMCB\Lab6\Lab6\obj\Debug\Lab6.csproj.AssemblyReference.cache
+E:\LTMCB\Lab6\Lab6\obj\Debug\Lab6.Form1.resources
+E:\LTMCB\Lab6\Lab6\obj\Debug\Lab6.Properties.Resources.resources
+E:\LTMCB\Lab6\Lab6\obj\Debug\Lab6.server.resources
+E:\LTMCB\Lab6\Lab6\obj\Debug\Lab6.csproj.GenerateResource.cache
+E:\LTMCB\Lab6\Lab6\obj\Debug\Lab6.csproj.CoreCompileInputs.cache
+E:\LTMCB\Lab6\Lab6\obj\Debug\Lab6.exe
+E:\LTMCB\Lab6\Lab6\obj\Debug\Lab6.pdb
+E:\LTMCB\Lab6\Lab6\obj\Debug\Lab6.client.resources
+E:\LTMCB\Lab6\Lab6\obj\Debug\Lab6.client2.resources
+E:\LTMCB\Lab6\Lab6\bin\Debug\Newtonsoft.Json.dll
+E:\LTMCB\Lab6\Lab6\bin\Debug\Newtonsoft.Json.xml
+E:\LTMCB\Lab6\Lab6\obj\Debug\Lab6.csproj.CopyComplete
