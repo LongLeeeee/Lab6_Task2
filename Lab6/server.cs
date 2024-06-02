@@ -144,7 +144,7 @@ namespace Lab6
         }
         private void sendTime()
         {
-            while (Turn <=5)
+            while (Turn < 6)
             {
                 if (timeleft < 0 || playerAnswers.Contains(numberToSearch.ToString()))
                 {
@@ -217,28 +217,32 @@ namespace Lab6
                             wr.WriteLine(winner);
 
                         }
-                        
-                        randomNumber();
-                        Turn++;
-                        lb_answer.Text = numberToSearch.ToString();
-                        turn.Text = Turn.ToString();
-                        string scope = $"{randomNumber1.ToString()}|{randomNumber2.ToString()}";
-                        foreach (var item in playerList)
-                        {
-                            StreamWriter wr = new StreamWriter(item.Value.GetStream());
-                            wr.AutoFlush = true;
-                            wr.WriteLine("Setup");
-                            wr.WriteLine(scope);
-                            wr.WriteLine(Turn.ToString());
-                        }
                         if (Turn < 5)
                         {
+                            randomNumber();
+                            Turn++;
                             lb_answer.Text = numberToSearch.ToString();
                             turn.Text = Turn.ToString();
+                            string scope = $"{randomNumber1.ToString()}|{randomNumber2.ToString()}";
+                            foreach (var item in playerList)
+                            {
+                                StreamWriter wr = new StreamWriter(item.Value.GetStream());
+                                wr.AutoFlush = true;
+                                wr.WriteLine("Setup");
+                                wr.WriteLine(scope);
+                                wr.WriteLine(Turn.ToString());
+                            }
                             time.Text = "01:00";
                             timeleft = 60;
                             timer.Start();
                         }
+                        else 
+                        { 
+                            Turn++;
+                            MessageBox.Show("End game! Hãy xem kết quả");
+                            
+                        }
+                        
                     }));
                     
                 }
