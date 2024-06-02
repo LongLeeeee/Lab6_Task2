@@ -1,0 +1,114 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\HOCTAP\\HK4\\LTMCB\\TH\\Lab6\\Lab6_Task2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{17D9233B-8360-4367-9196-7678110A5013}|Lab6\\Lab6.csproj|d:\\hoctap\\hk4\\ltmcb\\th\\lab6\\lab6_task2\\lab6\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17D9233B-8360-4367-9196-7678110A5013}|Lab6\\Lab6.csproj|solutionrelative:lab6\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D9233B-8360-4367-9196-7678110A5013}|Lab6\\Lab6.csproj|D:\\HOCTAP\\HK4\\LTMCB\\TH\\Lab6\\Lab6_Task2\\lab6\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{17D9233B-8360-4367-9196-7678110A5013}|Lab6\\Lab6.csproj|solutionrelative:lab6\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D9233B-8360-4367-9196-7678110A5013}|Lab6\\Lab6.csproj|D:\\HOCTAP\\HK4\\LTMCB\\TH\\Lab6\\Lab6_Task2\\lab6\\client2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17D9233B-8360-4367-9196-7678110A5013}|Lab6\\Lab6.csproj|solutionrelative:lab6\\client2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D9233B-8360-4367-9196-7678110A5013}|Lab6\\Lab6.csproj|D:\\HOCTAP\\HK4\\LTMCB\\TH\\Lab6\\Lab6_Task2\\lab6\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{17D9233B-8360-4367-9196-7678110A5013}|Lab6\\Lab6.csproj|solutionrelative:lab6\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D9233B-8360-4367-9196-7678110A5013}|Lab6\\Lab6.csproj|D:\\HOCTAP\\HK4\\LTMCB\\TH\\Lab6\\Lab6_Task2\\lab6\\client2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{17D9233B-8360-4367-9196-7678110A5013}|Lab6\\Lab6.csproj|solutionrelative:lab6\\client2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D9233B-8360-4367-9196-7678110A5013}|Lab6\\Lab6.csproj|D:\\HOCTAP\\HK4\\LTMCB\\TH\\Lab6\\Lab6_Task2\\lab6\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{17D9233B-8360-4367-9196-7678110A5013}|Lab6\\Lab6.csproj|solutionrelative:lab6\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 250,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "client.cs [Design]",
+              "DocumentMoniker": "D:\\HOCTAP\\HK4\\LTMCB\\TH\\Lab6\\Lab6_Task2\\Lab6\\client.cs",
+              "RelativeDocumentMoniker": "Lab6\\client.cs",
+              "ToolTip": "D:\\HOCTAP\\HK4\\LTMCB\\TH\\Lab6\\Lab6_Task2\\Lab6\\client.cs [Design]",
+              "RelativeToolTip": "Lab6\\client.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T14:36:17.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "server.cs [Design]",
+              "DocumentMoniker": "D:\\HOCTAP\\HK4\\LTMCB\\TH\\Lab6\\Lab6_Task2\\Lab6\\server.cs",
+              "RelativeDocumentMoniker": "Lab6\\server.cs",
+              "ToolTip": "D:\\HOCTAP\\HK4\\LTMCB\\TH\\Lab6\\Lab6_Task2\\Lab6\\server.cs [Design]",
+              "RelativeToolTip": "Lab6\\server.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T14:30:22.378Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\HOCTAP\\HK4\\LTMCB\\TH\\Lab6\\Lab6_Task2\\Lab6\\Form1.cs",
+              "RelativeDocumentMoniker": "Lab6\\Form1.cs",
+              "ToolTip": "D:\\HOCTAP\\HK4\\LTMCB\\TH\\Lab6\\Lab6_Task2\\Lab6\\Form1.cs [Design]",
+              "RelativeToolTip": "Lab6\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T14:30:14.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "client2.cs",
+              "DocumentMoniker": "D:\\HOCTAP\\HK4\\LTMCB\\TH\\Lab6\\Lab6_Task2\\Lab6\\client2.cs",
+              "RelativeDocumentMoniker": "Lab6\\client2.cs",
+              "ToolTip": "D:\\HOCTAP\\HK4\\LTMCB\\TH\\Lab6\\Lab6_Task2\\Lab6\\client2.cs",
+              "RelativeToolTip": "Lab6\\client2.cs",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAAAJ8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T14:28:28.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "client2.cs [Design]",
+              "DocumentMoniker": "D:\\HOCTAP\\HK4\\LTMCB\\TH\\Lab6\\Lab6_Task2\\Lab6\\client2.cs",
+              "RelativeDocumentMoniker": "Lab6\\client2.cs",
+              "ToolTip": "D:\\HOCTAP\\HK4\\LTMCB\\TH\\Lab6\\Lab6_Task2\\Lab6\\client2.cs [Design]",
+              "RelativeToolTip": "Lab6\\client2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T14:28:28.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "server.cs",
+              "DocumentMoniker": "D:\\HOCTAP\\HK4\\LTMCB\\TH\\Lab6\\Lab6_Task2\\Lab6\\server.cs",
+              "RelativeDocumentMoniker": "Lab6\\server.cs",
+              "ToolTip": "D:\\HOCTAP\\HK4\\LTMCB\\TH\\Lab6\\Lab6_Task2\\Lab6\\server.cs",
+              "RelativeToolTip": "Lab6\\server.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAKcAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T14:28:28.658Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

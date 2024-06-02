@@ -103,7 +103,7 @@ namespace Lab6
                     string point = reader.ReadLine();
                     Invoke(new Action(() =>
                     {
-                        numbers.AppendText($"==========================================\r\n");
+                        numbers.AppendText($"======================================\r\n");
                         numbers.AppendText($"Điểm của bạn sau lượt {turn.Text}: {point}\r\n\r\n");
                     }));
                     string fileName = $"history-{this.username}.txt";
@@ -137,15 +137,26 @@ namespace Lab6
             timer.Start();
             if (timeleft != 0)
             {
-                send.Visible = false;
+                send.Visible = false; //ẩn buttom
                 answer.Clear();
             }
+            // Tạo file lưu người chơi
             string fileName = $"history-{this.username}.txt";
             string filepath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, fileName);
             StreamWriter writer1 = new StreamWriter(filepath, true);
             writer1.AutoFlush = true;
             writer1.WriteLine($"Số dự đoán: {answer.Text}\r\n");
             writer1.Close();
+
+        }
+
+        private void answer_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void client2_Load(object sender, EventArgs e)
+        {
 
         }
     }

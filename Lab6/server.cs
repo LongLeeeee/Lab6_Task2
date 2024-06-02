@@ -144,23 +144,14 @@ namespace Lab6
         }
         private void sendTime()
         {
-            while (Turn < 6)
+            while (Turn <=5)
             {
-                if (timeleft >= 0)
-                {
-                    foreach (var item in playerList)
-                    {
-                        StreamWriter wr = new StreamWriter(item.Value.GetStream());
-                        wr.AutoFlush = true;
-                        wr.WriteLine(time.Text);
-                    }
-                }
-                else
+                if (timeleft < 0 || playerAnswers.Contains(numberToSearch.ToString()))
                 {
                     Invoke(new Action(() =>
                     {
                         timer.Stop();
-                        notification.AppendText("==================================================\r\n");
+                        notification.AppendText("=======================================================\r\n");
                         notification.AppendText("======================== Kết Quả ======================\r\n");
                         lb_answer.Text = numberToSearch.ToString();
                         notification.AppendText($"Số cần tìm là: {lb_answer.Text}\r\n");
@@ -169,9 +160,10 @@ namespace Lab6
                         {
                             int index = playerAnswers.IndexOf(numberToSearch.ToString());
                             notification.AppendText($"Người chiến thắng ở lượt {turn.Text} là: {playerNames[index]}\r\n");
+                            notification.AppendText("=======================================================\r\n");
                             pointList[playerNames[index]] += 10;
                             winner = playerNames[index];
-                            foreach(var item in playerNames)
+                            foreach (var item in playerNames)
                             {
                                 if (item != winner && pointList[item] > 0)
                                 {
@@ -195,7 +187,8 @@ namespace Lab6
                         {
                             notification.AppendText($"Không có người chiến thắng ở lượt {turn.Text}.\r\n");
                             winner = "";
-                            foreach(var item in playerNames)
+                            notification.AppendText("=======================================================\r\n");
+                            foreach (var item in playerNames)
                             {
                                 if (pointList[item] > 0)
                                 {
@@ -222,8 +215,9 @@ namespace Lab6
                             wr.AutoFlush = true;
                             wr.WriteLine("Finish");
                             wr.WriteLine(winner);
-                            
+
                         }
+                        
                         randomNumber();
                         Turn++;
                         lb_answer.Text = numberToSearch.ToString();
@@ -237,12 +231,25 @@ namespace Lab6
                             wr.WriteLine(scope);
                             wr.WriteLine(Turn.ToString());
                         }
-                        lb_answer.Text = numberToSearch.ToString();
-                        turn.Text = Turn.ToString();
-                        time.Text = "01:00";
-                        timeleft = 10;
-                        timer.Start();
+                        if (Turn < 5)
+                        {
+                            lb_answer.Text = numberToSearch.ToString();
+                            turn.Text = Turn.ToString();
+                            time.Text = "01:00";
+                            timeleft = 60;
+                            timer.Start();
+                        }
                     }));
+                    
+                }
+                else
+                {
+                    foreach (var item in playerList)
+                    {
+                        StreamWriter wr = new StreamWriter(item.Value.GetStream());
+                        wr.AutoFlush = true;
+                        wr.WriteLine(time.Text);
+                    }
                 }
             }
             writer.WriteLine("EndGame");
